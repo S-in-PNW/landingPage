@@ -1,0 +1,191 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*border: green solid;*/
+}
+
+.secOne {
+    background-color: #1f2937;
+    display: flex;
+    flex: 1;
+    color: white;
+    align-items: center;
+}
+
+.containerOne {
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+}
+
+.hLogo {
+
+}
+
+.spacer {
+    width: 10vw;
+}
+
+.hLinks {
+    display: flex;
+    flex: auto;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.secTwo {
+    display: flex;
+    flex: 1;
+    box-sizing: border-box;
+    background-color: #1f2937;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    padding-bottom: 20vh;
+    padding-top: 5vh;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+.secTwo img,
+.secTwo .firstColOne {
+    width: 35vw;
+    margin: 1vw;
+}
+
+.boldTitle {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-top: 0%;
+}
+
+.secTwo .signUp {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 5px;
+    font-size: 18px;
+    height: 30px;
+    width: 120px;
+}
+
+.secThree {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-bottom: 0%;
+
+}
+
+.secThreeTitle {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    width: 70vw;
+    margin-bottom: 70px;
+}
+
+.secThreeContent {
+    display: flex;
+    box-sizing: border-box;
+    width: 70vw;
+    padding: 5px;
+}
+
+.secThreeContent img {
+    height: auto;
+    width: 90%;
+}
+
+.secThreeContent div {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.secFour {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    background-color: #E5E7Eb;
+}
+
+.containerFour {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.containerFour .secFourRef {
+    display: flex;
+    width: 70vw;
+    margin-top: 0%;
+    justify-content: flex-end;
+    font-size: 18px;
+}
+
+.secFive {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    background-color: white;
+
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.secFive .fiveWrapper {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.secFivePrime {
+    display: flex;
+    flex-direction: column;
+}
+
+.secFiveSub {
+
+}
+
+.secFiveSub .signup {
+
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    flex: 1;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
