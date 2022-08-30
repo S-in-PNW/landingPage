@@ -6,19 +6,39 @@
 /*
 CONTENTS
 *
-*Section 1 : header
+*Section 1 : Header
 *   Logo
 *   Spacer
 *   Links
-*Section 2 : Intro
-*   
 *
+*Section 2 : Website Intro
+*   Image and Text Sizing
+*   Title Text
+*   Subtitle Text
+*   Button
 *
+*Section 3: Fun Facts section
+*   Container
+*   Title
+*   Pictures
+*   Info
 *
+*Section 4: Quote Section
+*   Container
+*   Quote
+*   Credit for the Quote
 *
+*Section 5: SIGN UP
+*   Container
+*   Bold Words
+*   Non-Bold Words
+*   Button
 *
-*
+*FOOTER
 */
+
+
+
 
 
 /*SECTION 1 : HEADER*/
@@ -30,6 +50,8 @@ CONTENTS
     align-items: center;
 }
 
+/*Container for header*/
+/*I forgot that borders were a thing and created a container lol*/
 .containerOne {
     display: flex;
     box-sizing: border-box;
@@ -42,17 +64,18 @@ CONTENTS
     width: 70vw;
 }
 
-/*header logo*/
+/*header logo (in case I wanna use it??)*/
 .hLogo {
 
 }
 
 /*spacer between logo and links*/
+    /*because I couldn't figure out how to space them unevenly without it*/
 .spacer {
     width: 25vw;
 }
 
-/*header links*/
+/*header links (not actual links, I should fix this)*/
 .hLinks {
     display: flex;
     flex: auto;
@@ -62,7 +85,11 @@ CONTENTS
     justify-content: space-between;
 }
 
-/*SECTION 2*/
+
+
+
+
+/*SECTION 2: WEBSITE INTRO*/
 
 /*first section below header*/
 .secTwo {
@@ -87,7 +114,7 @@ CONTENTS
     border-radius: 10px;
 }
 
-/*section 1 title text*/
+/*section 1 big title text*/
 .boldTitle {
     font-size: 48px;
     font-weight: bolder;
@@ -102,6 +129,7 @@ CONTENTS
     margin-top: 0%;
 }
 
+/*for the section one button*/
 .secTwo .signUp {
     background-color: #3882f6;
     color: #E5E7EB;
@@ -109,8 +137,16 @@ CONTENTS
     font-size: 18px;
     height: 30px;
     width: 120px;
+    touch-action: auto;
 }
 
+
+
+
+
+/*SECTION 3: FUN FACTS SECTION*/
+
+/*the container*/
 .secThree {
     width: auto;
     display: flex;
@@ -123,6 +159,7 @@ CONTENTS
 
 }
 
+/*Fun Facts title*/
 .secThreeTitle {
     display: flex;
     justify-content: center;
@@ -133,33 +170,48 @@ CONTENTS
     margin-bottom: 70px;
 }
 
+/*container for pictures and info*/
 .secThreeContent {
     display: flex;
     box-sizing: border-box;
     width: 80vw;
     padding: 5px;
+    justify-content: center;
 }
 
+/*for the pictures specifically*/
 .secThreeContent img {
     height: auto;
-    width: 90%;
+    width: 100%;
     justify-self: space-evenly;
     border-radius: 10px;
+    justify-self: center;
 }
 
+/*for the pictures and corresponding info in their individual containers*/
 .secThreeContent div {
     display: flex;
+    flex-wrap: wrap;
     box-sizing: border-box;
     flex-direction: column;
-    padding: 5px;
+    align-items: center;
+    padding: 2vw;
+    width: 18vw;
 }
 
+
+
+
+/*SECTION: QUOTE SECTION*/
+
+/*container*/
 .secFour {
     padding-left: 15vw;
     padding-right: 15vw;
     background-color: #E5E7Eb;
 }
 
+/*conntainer for the quote itself*/
 .containerFour {
     display: flex;
     flex-direction: column;
@@ -173,6 +225,7 @@ CONTENTS
     color: #1f2937;
 }
 
+/*credit line for the quote*/
 .containerFour .secFourRef {
     display: flex;
     width: 70vw;
@@ -181,14 +234,21 @@ CONTENTS
     font-size: 18px;
 }
 
+
+
+
+/*SECTION 5: SIGN UP*/
+
+/*Container*/
 .secFive {
     padding-left: 15vw;
     padding-right: 15vw;
     background-color: white;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
+/*another container, I wish I had just used margins*/
 .fiveWrapper {
     background-color: #3882f6;
     display: flex;
@@ -199,21 +259,18 @@ CONTENTS
     width: 70vw;
 }
 
+/*The first column of the container, has the words and sets qualities for the bold words*/
 .fiveWrapper .secFivePrime {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     color: #E5E7EB;
     font-weight: 900;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
 }
 
+/*sets properties for non-bold words*/
 .secFiveSub {
-    border: 0px;
     margin: 0px;
-    padding: 0px; 
     flex-wrap: wrap;
     font-weight: 100;
     justify-content: space-around;
@@ -229,9 +286,15 @@ CONTENTS
     height: 30px;
     width: 120px;
     margin: 10px;
+    touch-action: auto;
 }
 
-/*footer*/
+
+
+
+
+/*FOOTER*/
+
 .footer {
     background-color: #1f2937;
     display: flex;
